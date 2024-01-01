@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="Contact Mike, an expert Web Developer from Atlanta" />
+    <meta
+
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/et-line.css" />
+    
+
+  
+
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/blocs.min.js"></script>
+    <script src="./js/jqBootstrapValidation.js"></script>
+    <script src="./js/formHandler.js"></script>
+    <script src="./js/headerFooterManager.js"></script>
+
+
+
+    <title>page2</title>
+
+    <!-- Analytics -->
+
+    <!-- Analytics END -->
+  
+  </head>
+  <body>
+
+    <!-- Main container -->
+  <div class="page-container">
+    <!-- bloc-0 -->
+
+<duplicate-header></duplicate-header>
+  <!-- removed previous HEADER -->
+
+
+
+      <!-- bloc-0 END -->
+
+      <!-- bloc-6 -->
+      <div class="bloc bg-dots-bg bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper lazy-bg" id="bloc-6" data-src="img/texture-paper.webp">
+  <div class="container bloc-lg">
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="text-center hero-bloc-text tc-white">
+          Let&rsquo;s talk web design!
+        </p>
+        <p class="text-center mg-lg tc-white tight-width-whitespace">
+          I&rsquo;m super excited that you want to work together.<br />Please fill in the form below or get in touch so I can learn about your project <br />and we can set up time to &nbsp;talk websites and Atlanta city love.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var lazyBgElements = document.querySelectorAll('.lazy-bg');
+
+    lazyBgElements.forEach(function(element) {
+      var bgImageSrc = element.getAttribute('data-src');
+      if (bgImageSrc) {
+        element.style.backgroundImage = 'url(' + bgImageSrc + ')';
+      }
+    });
+  });
+</script>
+
+      <!-- bloc-6 END -->
+
+      <!-- bloc-7 -->
+      <div class="bloc bgc-white l-bloc" id="bloc-7">
+        <div class="container bloc-lg">
+          <div class="row">
+            <div class="col-sm-6">
+              
+          <form id="form_1"
+            novalidate
+            success-msg="Your message has been sent."
+            fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+>
+           <div class="form-group">
+           <label for="name" id="name-label">Name</label>
+           <input id="name" class="form-control" required aria-labelledby="name-label" />
+           </div>
+           <div class="form-group">
+           <label for="email" id="email-label">Email</label>
+           <input
+           id="email"
+           class="form-control"
+          type="email"
+          required
+          aria-labelledby="email-label"
+    />
+  </div>
+</form>
+
+    <div class="form-group">
+        <label for="how-found" id="how-found-label">How did you find me?</label>
+        <input class="form-control" type="email" required id="how-found" aria-labelledby="how-found-label">
+    </div>
+
+    <div class="form-group">
+        <label for="message">
+            Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br />
+        </label>
+        <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+    </div>
+
+    <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+        Let's go Mike
+    </button>
+
+</form>
+
+            </div>
+            <div class="col-sm-6">
+              <p>
+                mike@gomikedesigns.com<br />+1 (404) 555-1234<br />
+                <br />123 Peachtree Ave. Atlanta, GA<br />Available 9am–5pm,
+                Mon-Fri <br />
+                <br />Interested to learn about my freelace services?
+                <br />Please visit my&nbsp;<a
+                  class="ltc-atomic-tangerine"
+                  href="index.html"
+                  >other page</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bloc-7 END -->
+
+<!-- FOOTER -->
+      
+<duplicate-footer></duplicate-footer>
+                  
+
+    
+    </div>
+    <!-- Main container END -->
+  </body>
+</html>
