@@ -437,7 +437,7 @@ nav .caret {
 
 .mg-md {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 48px;
 }
 
 .mg-lg {
@@ -663,6 +663,7 @@ a {
 .hero-bloc-text {
   font-size: 38px;
   text-align: center;
+  padding-bottom: 48px;
 }
 
 .hero-bloc-text-sub {
@@ -696,12 +697,13 @@ p {
 }
 
 .cta-hero {
-  margin-top: 22px;
+  margin-top: 48px;
   color: #ffffff !important;
   text-transform: uppercase;
-  padding: 12px 28px 12px 28px;
+  padding: 20px 48px 20px 48px;
   font-size: 1em;
   font-weight: 700;
+  margin-bottom: 48px;
 }
 
 .social {
