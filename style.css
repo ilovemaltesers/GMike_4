@@ -84,7 +84,7 @@ a:hover {
   content: "";
   background-size: 2px 2px;
   position: absolute;
-  top: 0;p
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -795,7 +795,6 @@ h4 {
 .btn-atomic-tangerine {
   background: #f3976c;
   color: #000000 !important;
-  max-width: 400px;
 }
 
 .ltc-white {
