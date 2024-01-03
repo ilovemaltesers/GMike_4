@@ -653,7 +653,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #000000 !important;
 }
 
 .container {
@@ -810,7 +810,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
+  color: #621f00 !important;
 }
 
 .icon-dark-slate-blue {
